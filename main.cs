@@ -12,7 +12,7 @@ class Program
         for (int i = 0; i < 4; i++){
           code = code + random.Next(1, 6); 
         }
-        Console.WriteLine(code);
+        //Console.WriteLine(code);
         while (true) {
             int num = 0;
             String pin = "";
